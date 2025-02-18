@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #111;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.logo span {
+    color: #ff6600;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #0d0d0d;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ff6600;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(255, 102, 0, 0.6);
+}
+
+h1 span, h2 span {
+    color: #ff6600;
+}
+
+section {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 102, 0, 0.3);
+}
+
+.contact a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact a:hover {
+    color: #ff3300;
+}
